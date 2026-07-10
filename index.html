@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="hero.title">ButceTakip</title>
+<meta name="description" content="ButceTakip - Personal Finance Manager. Track income, expenses, and savings on Android.">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">
+    <img src="img/icon.png" alt="ButceTakip">
+    <span>ButceTakip</span>
+  </a>
+  <div class="lang-selector">
+    <button class="lang-btn" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="az">AZ</button>
+    <button class="lang-btn" data-lang="tr">TR</button>
+    <button class="lang-btn" data-lang="ru">RU</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-icon">📱</div>
+  <h1><span data-i18n="hero.title">ButceTakip</span></h1>
+  <p data-i18n="hero.subtitle">Your personal finance manager — track income, expenses, and savings effortlessly.</p>
+  <a href="downloads/ButceTakip-v1.0.apk" class="download-btn">
+    ⬇ <span data-i18n="hero.download">Download Free</span>
+  </a>
+  <p class="version-info" data-i18n="hero.version">Version 1.0 &middot; 2.7 MB &middot; Android 8.0+</p>
+</section>
+
+<section class="features">
+  <div class="container">
+    <h2 data-i18n="features.heading">Everything you need to manage your money</h2>
+    <div class="features-grid" id="featuresGrid"></div>
+  </div>
+</section>
+
+<footer>
+  <p data-i18n="footer.copyright">© 2026 ButceTakip. All rights reserved.</p>
+  <p><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></p>
+  <p data-i18n="footer.contact">Contact: butcetakip@turksaw.com</p>
+</footer>
+
+<script src="js/translations.js"></script>
+<script src="js/i18n.js"></script>
+<script>
+function renderFeatures() {
+  const lang = getEffectiveLang();
+  const t = translations[lang] || translations.en;
+  const grid = document.getElementById('featuresGrid');
+  grid.innerHTML = '';
+  t.features.items.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'feature-card';
+    card.innerHTML = `
+      <div class="feature-icon">${item.icon}</div>
+      <h3>${item.title}</h3>
+      <p>${item.desc}</p>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+const origTranslate = translatePage;
+translatePage = function() {
+  origTranslate();
+  renderFeatures();
+};
+</script>
+</body>
+</html>
