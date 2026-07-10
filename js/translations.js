@@ -30,7 +30,7 @@ const translations = {
       s4Text: 'ButceTakip uses the following third-party services:',
       s4b: 'We do not sell or share your personal data with any third party for marketing purposes.',
       s5Title: '5. Data Deletion',
-      s5Text: 'You can request deletion of your account and all associated data by contacting us at butcetakip@turksaw.com. We will process your request within 30 days. You can also clear all local data by uninstalling the application.',
+      s5Text: 'You can request deletion of your account and all associated data by contacting us at hjinlabs@gmail.com. We will process your request within 30 days. You can also clear all local data by uninstalling the application.',
       s6Title: '6. Permissions',
       s6Text: 'ButceTakip requests the following permissions:',
       s6a: '<strong>SMS (Receive & Read):</strong> Used only to detect bank transaction messages. No SMS data is stored or shared beyond transaction parsing.',
@@ -39,7 +39,7 @@ const translations = {
       s7Title: '7. Changes to This Policy',
       s7Text: 'We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date.',
       s8Title: '8. Contact',
-      s8Text: 'If you have any questions about this privacy policy, please contact us at: <a href="mailto:butcetakip@turksaw.com">butcetakip@turksaw.com</a>',
+      s8Text: 'If you have any questions about this privacy policy, please contact us at: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
       title: 'ButceTakip',
@@ -61,7 +61,7 @@ const translations = {
     footer: {
       copyright: '© 2026 ButceTakip. All rights reserved.',
       privacy: 'Privacy Policy',
-      contact: 'Contact: butcetakip@turksaw.com',
+      contact: 'Contact: hjinlabs@gmail.com',
     },
   },
 
@@ -95,7 +95,7 @@ const translations = {
       s4Text: 'Büdcə Takip aşağıdakı üçüncü tərəf xidmətlərindən istifadə edir:',
       s4b: 'Şəxsi məlumatlarınızı heç bir üçüncü tərəfə marketinq məqsədi ilə satmırıq və ya paylaşmırıq.',
       s5Title: '5. Məlumatların Silinməsi',
-      s5Text: 'Hesabınızın və bütün əlaqəli məlumatlarınızın silinməsini tələb etmək üçün butcetakip@turksaw.com ünvanına müraciət edə bilərsiniz. Sorğunuzu 30 gün ərzində emal edəcəyik. Proqramı silməklə bütün lokal məlumatları da təmizləyə bilərsiniz.',
+      s5Text: 'Hesabınızın və bütün əlaqəli məlumatlarınızın silinməsini tələb etmək üçün hjinlabs@gmail.com ünvanına müraciət edə bilərsiniz. Sorğunuzu 30 gün ərzində emal edəcəyik. Proqramı silməklə bütün lokal məlumatları da təmizləyə bilərsiniz.',
       s6Title: '6. İcazələr',
       s6Text: 'Büdcə Takip aşağıdakı icazələri tələb edir:',
       s6a: '<strong>SMS (Qəbul & Oxu):</strong> Yalnız bank əməliyyat mesajlarını aşkarlamaq üçün istifadə olunur. Heç bir SMS məlumatı əməliyyat analizindən kənar saxlanılmır və ya paylaşılmır.',
@@ -104,7 +104,7 @@ const translations = {
       s7Title: '7. Siyasətə Dəyişikliklər',
       s7Text: 'Bu gizlilik siyasətini vaxtaşırı yeniləyə bilərik. Hər hansı dəyişiklik barədə sizi bu səhifədə yeni siyasəti yerləşdirməklə və "Son yenilənmə" tarixini yeniləməklə məlumatlandıracağıq.',
       s8Title: '8. Əlaqə',
-      s8Text: 'Bu gizlilik siyasəti ilə bağlı hər hansı sualınız varsa, bizimlə əlaqə saxlayın: <a href="mailto:butcetakip@turksaw.com">butcetakip@turksaw.com</a>',
+      s8Text: 'Bu gizlilik siyasəti ilə bağlı hər hansı sualınız varsa, bizimlə əlaqə saxlayın: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
       title: 'Büdcə Takip',
@@ -126,7 +126,7 @@ const translations = {
     footer: {
       copyright: '© 2026 Büdcə Takip. Bütün hüquqlar qorunur.',
       privacy: 'Gizlilik Siyasəti',
-      contact: 'Əlaqə: butcetakip@turksaw.com',
+      contact: 'Əlaqə: hjinlabs@gmail.com',
     },
   },
 
@@ -160,7 +160,7 @@ const translations = {
       s4Text: 'ButceTakip aşağıdaki üçüncü taraf hizmetlerini kullanır:',
       s4b: 'Kişisel verilerinizi pazarlama amacıyla hiçbir üçüncü tarafla satmaz veya paylaşmayız.',
       s5Title: '5. Veri Silme',
-      s5Text: 'Hesabınızın ve ilgili tüm verilerin silinmesini butcetakip@turksaw.com adresinden talep edebilirsiniz. Talebinizi 30 gün içinde işleme alacağız. Uygulamayı kaldırarak tüm yerel verileri de temizleyebilirsiniz.',
+      s5Text: 'Hesabınızın ve ilgili tüm verilerin silinmesini hjinlabs@gmail.com adresinden talep edebilirsiniz. Talebinizi 30 gün içinde işleme alacağız. Uygulamayı kaldırarak tüm yerel verileri de temizleyebilirsiniz.',
       s6Title: '6. İzinler',
       s6Text: 'ButceTakip aşağıdaki izinleri ister:',
       s6a: '<strong>SMS (Alma ve Okuma):</strong> Yalnızca banka işlem mesajlarını tespit etmek için kullanılır. Hiçbir SMS verisi işlem ayrıştırma dışında saklanmaz veya paylaşılmaz.',
@@ -169,7 +169,7 @@ const translations = {
       s7Title: '7. Politikada Değişiklikler',
       s7Text: 'Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Değişiklikleri bu sayfada yeni politikayı yayınlayarak ve "Son güncelleme" tarihini güncelleyerek bildireceğiz.',
       s8Title: '8. İletişim',
-      s8Text: 'Bu gizlilik politikası hakkında sorularınız varsa, bizimle iletişime geçin: <a href="mailto:butcetakip@turksaw.com">butcetakip@turksaw.com</a>',
+      s8Text: 'Bu gizlilik politikası hakkında sorularınız varsa, bizimle iletişime geçin: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
       title: 'ButceTakip',
@@ -191,7 +191,7 @@ const translations = {
     footer: {
       copyright: '© 2026 ButceTakip. Tüm hakları saklıdır.',
       privacy: 'Gizlilik Politikası',
-      contact: 'İletişim: butcetakip@turksaw.com',
+      contact: 'İletişim: hjinlabs@gmail.com',
     },
   },
 
@@ -225,7 +225,7 @@ const translations = {
       s4Text: 'ButceTakip использует следующие сторонние сервисы:',
       s4b: 'Мы не продаём и не передаём ваши личные данные третьим лицам в маркетинговых целях.',
       s5Title: '5. Удаление данных',
-      s5Text: 'Вы можете запросить удаление вашей учётной записи и всех связанных данных, связавшись с нами по адресу butcetakip@turksaw.com. Мы обработаем ваш запрос в течение 30 дней. Вы также можете удалить все локальные данные, удалив приложение.',
+      s5Text: 'Вы можете запросить удаление вашей учётной записи и всех связанных данных, связавшись с нами по адресу hjinlabs@gmail.com. Мы обработаем ваш запрос в течение 30 дней. Вы также можете удалить все локальные данные, удалив приложение.',
       s6Title: '6. Разрешения',
       s6Text: 'ButceTakip запрашивает следующие разрешения:',
       s6a: '<strong>SMS (Получение и чтение):</strong> Используется только для обнаружения банковских транзакций. Никакие SMS-данные не хранятся и не передаются за пределами анализа транзакций.',
@@ -234,7 +234,7 @@ const translations = {
       s7Title: '7. Изменения в политике',
       s7Text: 'Мы можем время от времени обновлять эту политику конфиденциальности. Мы уведомим вас о любых изменениях, разместив новую политику на этой странице и обновив дату «Последнего обновления».',
       s8Title: '8. Контакты',
-      s8Text: 'Если у вас есть вопросы об этой политике конфиденциальности, свяжитесь с нами: <a href="mailto:butcetakip@turksaw.com">butcetakip@turksaw.com</a>',
+      s8Text: 'Если у вас есть вопросы об этой политике конфиденциальности, свяжитесь с нами: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
       title: 'ButceTakip',
@@ -256,7 +256,7 @@ const translations = {
     footer: {
       copyright: '© 2026 ButceTakip. Все права защищены.',
       privacy: 'Политика конфиденциальности',
-      contact: 'Контакты: butcetakip@turksaw.com',
+      contact: 'Контакты: hjinlabs@gmail.com',
     },
   },
 
