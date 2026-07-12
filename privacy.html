@@ -86,5 +86,21 @@
 
 <script src="js/translations.js"></script>
 <script src="js/i18n.js"></script>
+<script>
+function observeNav() {
+  const nav = document.querySelector('nav');
+  const sentinel = document.createElement('div');
+  sentinel.style.position = 'absolute';
+  sentinel.style.top = '0';
+  sentinel.style.height = '1px';
+  sentinel.style.width = '1px';
+  document.body.prepend(sentinel);
+  const observer = new IntersectionObserver(([e]) => {
+    nav.classList.toggle('scrolled', !e.isIntersecting);
+  }, { threshold: 0 });
+  observer.observe(sentinel);
+}
+document.addEventListener('DOMContentLoaded', observeNav);
+</script>
 </body>
 </html>

@@ -54,9 +54,10 @@ function renderFeatures() {
   const t = translations[lang] || translations.en;
   const grid = document.getElementById('featuresGrid');
   grid.innerHTML = '';
-  t.features.items.forEach(item => {
+  t.features.items.forEach((item, i) => {
     const card = document.createElement('div');
     card.className = 'feature-card';
+    card.style.transitionDelay = (i * 0.08) + 's';
     card.innerHTML = `
       <div class="feature-icon">${item.icon}</div>
       <h3>${item.title}</h3>
@@ -64,6 +65,27 @@ function renderFeatures() {
     `;
     grid.appendChild(card);
   });
+  setTimeout(observeCards, 100);
+}
+
+function observeCards() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.feature-card').forEach(c => observer.observe(c));
+}
+
+function observeNav() {
+  const nav = document.querySelector('nav');
+  const observer = new IntersectionObserver(([e]) => {
+    nav.classList.toggle('scrolled', !e.isIntersecting);
+  }, { threshold: 0 });
+  observer.observe(document.querySelector('.hero'));
 }
 
 const origTranslate = translatePage;
@@ -71,6 +93,10 @@ translatePage = function() {
   origTranslate();
   renderFeatures();
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  observeNav();
+});
 </script>
 </body>
 </html>
