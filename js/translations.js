@@ -2,6 +2,7 @@ const translations = {
 
   en: {
     nav: {
+      brand: 'Budget Tracker',
       home: 'Home',
       privacy: 'Privacy Policy',
     },
@@ -42,7 +43,7 @@ const translations = {
       s8Text: 'If you have any questions about this privacy policy, please contact us at: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
-      title: 'ButceTakip',
+      title: 'Budget Tracker',
       subtitle: 'Your personal finance manager — track income, expenses, and savings effortlessly.',
       download: 'Download Free',
       version: 'Version 1.0 &middot; 2.7 MB &middot; Android 8.0+',
@@ -59,7 +60,7 @@ const translations = {
       ],
     },
     footer: {
-      copyright: '© 2026 ButceTakip. All rights reserved.',
+      copyright: '© 2026 Budget Tracker. All rights reserved.',
       privacy: 'Privacy Policy',
       contact: 'Contact: hjinlabs@gmail.com',
     },
@@ -67,6 +68,7 @@ const translations = {
 
   az: {
     nav: {
+      brand: 'Budget Tracker',
       home: 'Ana Səhifə',
       privacy: 'Gizlilik Siyasəti',
     },
@@ -107,7 +109,7 @@ const translations = {
       s8Text: 'Bu gizlilik siyasəti ilə bağlı hər hansı sualınız varsa, bizimlə əlaqə saxlayın: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
-      title: 'Büdcə Takip',
+      title: 'Budget Tracker',
       subtitle: 'Şəxsi maliyyə idarəetmə proqramı — gəlir, xərc və əmanətləri asanlıqla izləyin.',
       download: 'Pulsuz Yüklə',
       version: 'Versiya 1.0 &middot; 2.7 MB &middot; Android 8.0+',
@@ -124,7 +126,7 @@ const translations = {
       ],
     },
     footer: {
-      copyright: '© 2026 Büdcə Takip. Bütün hüquqlar qorunur.',
+      copyright: '© 2026 Budget Tracker. Bütün hüquqlar qorunur.',
       privacy: 'Gizlilik Siyasəti',
       contact: 'Əlaqə: hjinlabs@gmail.com',
     },
@@ -132,6 +134,7 @@ const translations = {
 
   tr: {
     nav: {
+      brand: 'Budget Tracker',
       home: 'Ana Sayfa',
       privacy: 'Gizlilik Politikası',
     },
@@ -172,7 +175,7 @@ const translations = {
       s8Text: 'Bu gizlilik politikası hakkında sorularınız varsa, bizimle iletişime geçin: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
-      title: 'ButceTakip',
+      title: 'Budget Tracker',
       subtitle: 'Kişisel finans yöneticiniz — gelir, gider ve birikimlerinizi zahmetsizce takip edin.',
       download: 'Ücretsiz İndir',
       version: 'Sürüm 1.0 &middot; 2.7 MB &middot; Android 8.0+',
@@ -189,7 +192,7 @@ const translations = {
       ],
     },
     footer: {
-      copyright: '© 2026 ButceTakip. Tüm hakları saklıdır.',
+      copyright: '© 2026 Budget Tracker. Tüm hakları saklıdır.',
       privacy: 'Gizlilik Politikası',
       contact: 'İletişim: hjinlabs@gmail.com',
     },
@@ -197,6 +200,7 @@ const translations = {
 
   ru: {
     nav: {
+      brand: 'Budget Tracker',
       home: 'Главная',
       privacy: 'Политика конфиденциальности',
     },
@@ -237,7 +241,7 @@ const translations = {
       s8Text: 'Если у вас есть вопросы об этой политике конфиденциальности, свяжитесь с нами: <a href="mailto:hjinlabs@gmail.com">hjinlabs@gmail.com</a>',
     },
     hero: {
-      title: 'ButceTakip',
+      title: 'Budget Tracker',
       subtitle: 'Ваш личный финансовый менеджер — отслеживайте доходы, расходы и сбережения без усилий.',
       download: 'Скачать бесплатно',
       version: 'Версия 1.0 &middot; 2.7 MB &middot; Android 8.0+',
@@ -254,7 +258,7 @@ const translations = {
       ],
     },
     footer: {
-      copyright: '© 2026 ButceTakip. Все права защищены.',
+      copyright: '© 2026 Budget Tracker. Все права защищены.',
       privacy: 'Политика конфиденциальности',
       contact: 'Контакты: hjinlabs@gmail.com',
     },
