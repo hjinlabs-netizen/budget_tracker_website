@@ -46,7 +46,7 @@ const translations = {
       title: 'Budget Tracker',
       subtitle: 'Your personal finance manager — track income, expenses, and savings effortlessly.',
       download: 'Download Free',
-      version: 'Version 1.0 &middot; 2.7 MB &middot; Android 8.0+',
+      version: 'Version 1.0.1 &middot; 3.7 MB &middot; Android 8.0+',
     },
     features: {
       heading: 'Everything you need to manage your money',
@@ -112,7 +112,7 @@ const translations = {
       title: 'Budget Tracker',
       subtitle: 'Şəxsi maliyyə idarəetmə proqramı — gəlir, xərc və əmanətləri asanlıqla izləyin.',
       download: 'Pulsuz Yüklə',
-      version: 'Versiya 1.0 &middot; 2.7 MB &middot; Android 8.0+',
+      version: 'Versiya 1.0.1 &middot; 3.7 MB &middot; Android 8.0+',
     },
     features: {
       heading: 'Pulunuzu idarə etmək üçün hər şey',
@@ -178,7 +178,7 @@ const translations = {
       title: 'Budget Tracker',
       subtitle: 'Kişisel finans yöneticiniz — gelir, gider ve birikimlerinizi zahmetsizce takip edin.',
       download: 'Ücretsiz İndir',
-      version: 'Sürüm 1.0 &middot; 2.7 MB &middot; Android 8.0+',
+      version: 'Sürüm 1.0.1 &middot; 3.7 MB &middot; Android 8.0+',
     },
     features: {
       heading: 'Paranızı yönetmek için ihtiyacınız olan her şey',
@@ -244,7 +244,7 @@ const translations = {
       title: 'Budget Tracker',
       subtitle: 'Ваш личный финансовый менеджер — отслеживайте доходы, расходы и сбережения без усилий.',
       download: 'Скачать бесплатно',
-      version: 'Версия 1.0 &middot; 2.7 MB &middot; Android 8.0+',
+      version: 'Версия 1.0.1 &middot; 3.7 MB &middot; Android 8.0+',
     },
     features: {
       heading: 'Всё необходимое для управления финансами',

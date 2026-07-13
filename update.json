@@ -1,6 +1,6 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
-  "downloadUrl": "https://hjinlabs-netizen.github.io/budget_tracker_website/downloads/ButceTakip-v1.0.apk",
-  "releaseNotes": "İlk sürüm"
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "downloadUrl": "https://hjinlabs-netizen.github.io/budget_tracker_website/downloads/ButceTakip-v1.0.1.apk",
+  "releaseNotes": "Samsung A10 ve eski cihazlarda çökme düzeltildi (Mali GPU, biyometri, WorkManager)"
 }
