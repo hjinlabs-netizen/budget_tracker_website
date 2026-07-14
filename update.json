@@ -2,8 +2,8 @@
   "versionCode": 2,
   "versionName": "1.0.1",
   "downloadUrl": "https://hjinlabs-netizen.github.io/budget_tracker_website/downloads/ButceTakip-v1.0.1.apk",
-  "releaseNotesEn": "Fixed crashes on Samsung A10 and older devices (Mali GPU, biometric, WorkManager)",
-  "releaseNotesAz": "Samsung A10 v\u0259 k\u00f6hn\u0259 cihazlarda \u00e7\u00f6km\u0259 d\u00fcz\u0259ldildi (Mali GPU, biometriya, WorkManager)",
-  "releaseNotesTr": "Samsung A10 ve eski cihazlarda \u00e7\u00f6kme d\u00fczeltildi (Mali GPU, biyometri, WorkManager)",
-  "releaseNotesRu": "\u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u044b \u0441\u0431\u043e\u0438 \u043d\u0430 Samsung A10 \u0438 \u0441\u0442\u0430\u0440\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u0445 (Mali GPU, \u0431\u0438\u043e\u043c\u0435\u0442\u0440\u0438\u044f, WorkManager)"
+  "releaseNotesEn": "Fixed crashes (Mali GPU, biometric, WorkManager). Firebase Crashlytics integrated for better crash reporting.",
+  "releaseNotesAz": "Çökmə düzəldildi (Mali GPU, biometriya, WorkManager). Daha yaxşı hesabat üçün Firebase Crashlytics inteqrasiya edildi.",
+  "releaseNotesTr": "Çökme düzeltildi (Mali GPU, biyometri, WorkManager). Daha iyi raporlama için Firebase Crashlytics entegre edildi.",
+  "releaseNotesRu": "Исправлены сбои (Mali GPU, биометрия, WorkManager). Интегрирован Firebase Crashlytics для улучшенной отчетности."
 }
